@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.card {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+  text: grey;
+}
+
+.nav {
+  align-self: flex-end;
+  color: grey;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: lightgrey;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Style all font awesome icons */
+ul li {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
